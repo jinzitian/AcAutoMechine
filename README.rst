@@ -1,5 +1,5 @@
 ==========
-LSHCos
+AC Auto Mechine
 ==========
 
 A fast Python implementation of ac auto mechine
