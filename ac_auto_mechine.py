@@ -5,8 +5,6 @@ Spyder Editor
 This is a temporary script file.
 """
 
-from collections import defaultdict
-
 class Ac_node(object):
     
     def __init__(self, state_id):
