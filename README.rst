@@ -2,12 +2,11 @@
 AC Auto Mechine
 ==========
 
-A fast Python implementation of ac auto mechine
+A fast Python implementation of Ac Auto Mechine
 
 
 Quickstart
 ==========
-To create band 2 row 6 hashes for input data of 8 dimensions:
 
 .. code-block:: python
 
