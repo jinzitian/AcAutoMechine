@@ -10,14 +10,14 @@ To install:
 
 .. code-block:: bash
 
-    $ pip install ac_auto_mechine
+    $ pip install acAutoMechine
 
 Quickstart
 ==========
 
 .. code-block:: python
 
-    from ac_auto_mechine import Ac_mechine
+    from acAutoMechine import Ac_mechine
     
     ### usage one:
     actree = Ac_mechine()

@@ -9,7 +9,7 @@ with open('README.rst') as f:
 
 
 setup(
-    name='ac_auto_mechine',
+    name='acAutoMechine',
     version=acAutoMechine.__version__,
     packages=['acAutoMechine'],
     author='Chef_J',
