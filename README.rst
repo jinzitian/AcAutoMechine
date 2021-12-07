@@ -18,13 +18,13 @@ Quickstart
     actree.add_keys('her')
     actree.add_keys('here')
     actree.build_actree()
-    ### 完全匹配
+    ### all match
     print(actree.match("he here her"))  
-    ### 最长匹配
+    ### long match
     print(actree.match_long("he here her"))  
-    ### 完全匹配 显示查找路径
+    ### all match with match path
     print(actree.match("he here her"), True)  
-    ### 最长匹配 显示查找路径
+    ### long match with match path
     print(actree.match_long("he here her"), True)  
     
 	
