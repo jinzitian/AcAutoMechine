@@ -4,6 +4,13 @@ AC Auto Mechine
 
 A fast Python implementation of Ac Auto Mechine
 
+Installation
+============
+To install:
+
+.. code-block:: bash
+
+    $ pip install ac_auto_mechine
 
 Quickstart
 ==========
