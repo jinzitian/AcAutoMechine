@@ -86,9 +86,19 @@ class Ac_mechine(object):
                             jump_state = 1
                             break
                     if not jump_state:
-                        current_node = self.node
+                        next_node = self.node.node.get(char)
+                        if next_node:
+                            match_list.append(('start', 0))
+                            current_node = next_node
+                        else:
+                            current_node = self.node
                 else:
-                    current_node = self.node
+                    next_node = self.node.node.get(char)
+                    if next_node:
+                        match_list.append(('start', 0))
+                        current_node = next_node
+                    else:
+                        current_node = self.node
             else:
                 current_node = next_node
             match_list.append((char, current_node.state_id))
@@ -131,7 +141,8 @@ class Ac_mechine(object):
             return result
         return result
 
-if __name__ == '__main__':        
+if __name__ == '__main__':       
+    
     actree = Ac_mechine()
     actree.add_keys('he')
     actree.add_keys('her')
