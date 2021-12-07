@@ -30,8 +30,8 @@ Quickstart
     ### long match
     print(actree.match_long("he here her"))  
     ### all match with match path
-    print(actree.match("he here her"), True)  
+    print(actree.match("he here her", True))  
     ### long match with match path
-    print(actree.match_long("he here her"), True)  
+    print(actree.match_long("he here her", True))  
     
 	
