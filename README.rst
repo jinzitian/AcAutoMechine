@@ -1,6 +1,6 @@
-==========
+=================
 AC Auto Mechine
-==========
+=================
 
 A fast Python implementation of Ac Auto Mechine
 
